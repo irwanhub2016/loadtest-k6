@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "5541fb78-1ba1-4e14-97f8-212c6e0bdf86",
+		"name": "webhook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6530903"
+	},
+	"item": [
+		{
+			"name": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"cards\": [\n    {\n      \"header\": {\n        \"title\": \"Automation Test Report - Jurnal\"\n      },\n      \"sections\": [\n        {\n          \"widgets\": [\n            {\n              \"textParagraph\": {\n                \"text\": \"\\ud83e\\udd16 Summarize execution report of \\ud83d\\udcb0 <u><b>Jurnal.id</b></u> - icebox test for https://staging.cd.jurnal.id and https://my.jurnal.id\\n \\ud83d\\udcca Test results: <br> \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n Total Scenarios: 3 Total Passed: 3 (100.0%)\\nVisit <a href=\\\"https://jenkins.mekari.io/job/SDET-JURNAL/job/sdet_icebox_pr/1301/\\\">Jenkins PullRequest pr sdet-icebox #1301</a> to view detail\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU",
+					"protocol": "https",
+					"host": [
+						"chat",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1",
+						"spaces",
+						"AAAAop7Pmho",
+						"messages"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI"
+						},
+						{
+							"key": "token",
+							"value": "Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"cards\": [\n    {\n      \"header\": {\n        \"title\": \"Automation Test Report - Jurnal\"\n      },\n      \"sections\": [\n        {\n          \"widgets\": [\n            {\n              \"textParagraph\": {\n                \"text\": \"\\ud83e\\udd16 Summarize execution report of \\ud83d\\udcb0 <u><b>Jurnal.id</b></u> - icebox test for https://staging.cd.jurnal.id and https://my.jurnal.id\\n \\ud83d\\udcca Test results: <br> \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n Total Scenarios: 3 Total Passed: 3 (100.0%)\\nVisit <a href=\\\"https://jenkins.mekari.io/job/SDET-JURNAL/job/sdet_icebox_pr/1301/\\\">Jenkins PullRequest pr sdet-icebox #1301</a> to view detail\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU",
+					"protocol": "https",
+					"host": [
+						"chat",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1",
+						"spaces",
+						"AAAAop7Pmho",
+						"messages"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI"
+						},
+						{
+							"key": "token",
+							"value": "Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"cards\": [\n    {\n      \"header\": {\n        \"title\": \"Automation Test Report - Jurnal\"\n      },\n      \"sections\": [\n        {\n          \"widgets\": [\n            {\n              \"textParagraph\": {\n                \"text\": \"\\ud83e\\udd16 Summarize execution report of \\ud83d\\udcb0 <u><b>Jurnal.id</b></u> - icebox test for https://staging.cd.jurnal.id and https://my.jurnal.id\\n \\ud83d\\udcca Test results: <br> \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n \\u2705 : A Report Balance Sheet [3 / 3] (177.1s)\\n Total Scenarios: 3 Total Passed: 3 (100.0%)\\nVisit <a href=\\\"https://jenkins.mekari.io/job/SDET-JURNAL/job/sdet_icebox_pr/1301/\\\">Jenkins PullRequest pr sdet-icebox #1301</a> to view detail\"\n              }\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://chat.googleapis.com/v1/spaces/AAAAop7Pmho/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU",
+					"protocol": "https",
+					"host": [
+						"chat",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1",
+						"spaces",
+						"AAAAop7Pmho",
+						"messages"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI"
+						},
+						{
+							"key": "token",
+							"value": "Vgg5rVDxwsscAuXAS0sA5pI-c__2tLI-bA8NwNQ1-PU"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
